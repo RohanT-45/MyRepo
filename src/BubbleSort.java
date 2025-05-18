@@ -8,9 +8,9 @@ public class BubbleSort {
             for (int j = 0; j < numbers.length - 1 - i; j++) {
                 if (numbers[j] > numbers[j + 1]) {
                     // Swap the elements
-                    int temp = numbers[j];
+                    int temp1 = numbers[j];
                     numbers[j] = numbers[j + 1];
-                    numbers[j + 1] = temp;
+                    numbers[j + 1] = temp1;
                 }
             }
         }
